@@ -21,8 +21,10 @@ Timeframe of the study: 2015 - 2017
 - Formatted the humidity column into a percentage. Had to divide it by 100, used the division operator in a new column, then copied and pasted the values themselves in the old column. This is so it's populated by the values themselves rather than functions.
 - Verified the data types of the rest of the columns.
 
+
 # Final touches in Power Query
 - Replaced the integers used as codes for weather states and seasons with the states and season names themselves. Used Power Query instead of **REPLACE()** for performance purposes. A python dictionary and **map()** function would've been faster!
+
 
 # Visualizing in Tableau
 ## Moving Average
@@ -52,4 +54,28 @@ Timeframe of the study: 2015 - 2017
 - We have so many records of both wind speed and temperatures so we should bin them.
 - We add the fields into the rows and columns, and we make the main label the count of bike rides.
 - The heatmap is also interactive and will change according to time frame thanks to the In Range measure. (Couldn't they just automate this like in Power BI?)
+## Tooltip Charts
+These bar charts will be included in tooltips for when the user hovers over a point in the visualizations.
+  ### Weather
+  This one will display a bar chart with information that shows which weather conditions had the most rides.
+  ### Hour
+  This one will display a bar chart with information that shows which hours had the most bike rides.
+# Formatting
+Because I'm horrible with colors, I decided to go with the Disco Elysium palette again, very strong orange and green.
 
+## Building the dashboard
+Self explanatory, really. We just make sure to update the Action so that it includes the dashboard, making it truly interactive.
+
+# Insights
+- The service is used the most at 8am and 5pm, likely as commuting vehicles to get to and from work.
+- The service is very rarely used in unfavorable weather conditions (heat, freezing temperatures, rainfall, snowfall) and only as a last resort.
+- The line chart drops as the months go in the year, meaning that the service is indeed used less during winter.
+- It can be observed that the service is used slightly more during Christmas holidays.
+
+# Recap
+In this project, we:
+- Acquired a dataset off Kaggle.
+- Used a combo of Excel and Power Query to clean it up.
+- Used Tableau to visualize the data and extract meaningful insights.
+
+Also, they really don't let you save your work offline in Tableau Public? In the year 2023 I have to jump through 3 hoops to save my own work on my own device? Unbelievable
