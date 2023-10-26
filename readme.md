@@ -51,7 +51,7 @@ Timeframe of the study: 2015 - 2017
 - We start with a calculated field that sums the count of bike rides in the chosen time frame, and we turn it into a card.
 
 ## Wind Speed vs Temperature Heatmap
-- We have so many records of both wind speed and temperatures so we should bin them.
+- We have so many records of both wind speed and temperatures, so we should bin them.
 - We add the fields into the rows and columns, and we make the main label the count of bike rides.
 - The heatmap is also interactive and will change according to time frame thanks to the In Range measure. (Couldn't they just automate this like in Power BI?)
 ## Tooltip Charts
@@ -78,4 +78,3 @@ In this project, we:
 - Used a combo of Excel and Power Query to clean it up.
 - Used Tableau to visualize the data and extract meaningful insights.
 
-Also, they really don't let you save your work offline in Tableau Public? In the year 2023 I have to jump through 3 hoops to save my own work on my own device? Unbelievable
