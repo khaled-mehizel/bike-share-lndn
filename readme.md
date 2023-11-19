@@ -76,5 +76,6 @@ Self explanatory, really. We just make sure to update the Action so that it incl
 In this project, we:
 - Acquired a dataset off Kaggle.
 - Used a combo of Excel and Power Query to clean it up.
-- Used Tableau to visualize the data and extract meaningful insights.
+- Used Tableau to visualize the data, creating a concise and rich dashboard.
+- Identified peak hours, seasonality trends and usage patterns under different weather conditions.
 
